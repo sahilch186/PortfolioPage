@@ -1,0 +1,99 @@
+body {
+    font-family: Montserrat, Avenir, Calibri, sans-serif;
+  }
+  ul {
+    margin: 0;
+    padding: 1em;
+    list-style-type: none;
+    text-align: center;
+  }
+  li {
+    display: inline-block;
+    padding: .5em 1.5em;
+    margin: 0;
+    background-color: #E9ECEF;
+    border-radius: 4px;
+  }
+  li:hover {
+    background-color: #d4d8db;
+    color: #333;
+    cursor: pointer;
+  }
+  .active {
+    background-color: #007BFF;
+    border: 1px solid #007BFF;
+    color: #fff;
+  }
+
+  .card-header{
+    border-bottom: 0px solid rgba(0,0,0,.125);
+      position: relative;
+    &::after{
+        content: " ";
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        opacity: 0;
+        left: 0;
+        position: absolute;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+    }
+
+    &::before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -13px;
+        margin-left: -13px;
+        opacity: 0;
+        color: #fff;
+        font-size: 26px;
+        font-family: 'Font Awesome 5 Free';
+        content: "\f00e";
+        font-weight: 900;
+        pointer-events: none;
+        z-index: 9000;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+    }
+}
+  
+
+  .card-header:hover{
+      cursor: pointer;
+    &::after{
+        content: '';
+        display: block;
+        background: #007BFF;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: .7;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+    }
+
+    &::before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -13px;
+        margin-left: -13px;
+        opacity: 1;
+        color: #fff;
+        font-size: 26px;
+        font-family: 'Font Awesome 5 Free';
+        content: "\f00e";
+        font-weight: 900;
+        pointer-events: none;
+        z-index: 9000;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+    }
+  }

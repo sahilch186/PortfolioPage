@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.11/css/lightgallery.css'>
+    <link rel="stylesheet" href="style.min.css">
+</head>
+<body>
+    
+    <div class="jumbotron text-center">
+        <h1>Portfolio using lightgallery & filterizr</h1>
+        <h5>Other Libraries & Frameworks: Bootstrap & FontAwesome</h5>
+    </div>
+    
+
+    <div class="px-5 mx-5">
+        <ul class="filter-menu mb-4">
+            <li data-filter="all" class="active"> All </li>
+            <li data-filter="animal"> Animals </li>
+            <li data-filter="mood"> Mood</li>
+            <li data-filter="place"> Place</li>
+            <li data-filter="tech"> Technology </li>
+        </ul>
+    
+        <div class="filtr-container">
+            <div id="lightgallery" class="row">
+                <div data-src="https://source.unsplash.com/800x600/?tiger" class="filtr-item col-lg-3 col-md-6 col-sm-12" data-category="animal" data-sort="value" data-sub-html='<a href="#" class="btn btn-primary">Visit to Website</a>'>
+                    <div class="card mb-4 shadow">
+                        <div class="card-header p-0">
+                            <img class="img-fluid card-img-top" src="https://source.unsplash.com/800x600/?tiger">
+                        </div>
+                        <div class="card-body p-2 text-center">
+                            <div class="h4">Project Name</div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div data-src="https://source.unsplash.com/800x600/?paris" class="filtr-item col-lg-3 col-md-6 col-sm-12" data-category="place" data-sort="value">
+                    <div class="card mb-4 shadow">
+                        <div class="card-header p-0">
+                            <img class="img-fluid card-img-top" src="https://source.unsplash.com/800x600/?paris">
+                        </div>
+                        <div class="card-body p-2 text-center">
+                            <div class="h4">Project Name</div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div data-src="https://source.unsplash.com/800x600/?angry" class="filtr-item col-lg-3 col-md-6 col-sm-12" data-category="mood" data-sort="value">
+                    <div class="card mb-4 shadow">
+                        <div class="card-header p-0">
+                            <img class="img-fluid card-img-top" src="https://source.unsplash.com/800x600/?angry">
+                        </div>
+                        <div class="card-body p-2 text-center">
+                            <div class="h4">Project Name</div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div data-src="https://source.unsplash.com/800x600/?mumbai" class="filtr-item col-lg-3 col-md-6 col-sm-12" data-category="place" data-sort="value">
+                    <div class="card mb-4 shadow">
+                        <div class="card-header p-0">
+                            <img class="img-fluid card-img-top" src="https://source.unsplash.com/800x600/?mumbai">
+                        </div>
+                        <div class="card-body p-2 text-center">
+                            <div class="h4">Project Name</div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div data-src="https://source.unsplash.com/800x600/?dog" class="filtr-item col-lg-3 col-md-6 col-sm-12" data-category="animal" data-sort="value">
+                    <div class="card mb-4 shadow">
+                        <div class="card-header p-0">
+                            <img class="img-fluid card-img-top" src="https://source.unsplash.com/800x600/?dog">
+                        </div>
+                        <div class="card-body p-2 text-center">
+                            <div class="h4">Project Name</div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div data-src="https://source.unsplash.com/800x600/?mobile" class="filtr-item col-lg-3 col-md-6 col-sm-12" data-category="tech" data-sort="value">
+                    <div class="card mb-4 shadow">
+                        <div class="card-header p-0">
+                            <img class="img-fluid card-img-top" src="https://source.unsplash.com/800x600/?mobile">
+                        </div>
+                        <div class="card-body p-2 text-center">
+                            <div class="h4">Project Name</div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div data-src="https://source.unsplash.com/800x600/?computer" class="filtr-item col-lg-3 col-md-6 col-sm-12" data-category="tech" data-sort="value">
+                    <div class="card mb-4 shadow">
+                        <div class="card-header p-0">
+                            <img class="img-fluid card-img-top" src="https://source.unsplash.com/800x600/?computer">
+                        </div>
+                        <div class="card-body p-2 text-center">
+                            <div class="h4">Project Name</div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div data-src="https://source.unsplash.com/800x600/?laptop" class="filtr-item col-lg-3 col-md-6 col-sm-12" data-category="tech" data-sort="value">
+                    <div class="card mb-4 shadow">
+                        <div class="card-header p-0">
+                            <img class="img-fluid card-img-top" src="https://source.unsplash.com/800x600/?laptop">
+                        </div>
+                        <div class="card-body p-2 text-center">
+                            <div class="h4">Project Name</div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div data-src="https://source.unsplash.com/800x600/?happy" class="filtr-item col-lg-3 col-md-6 col-sm-12" data-category="mood" data-sort="value">
+                    <div class="card mb-4 shadow">
+                        <div class="card-header p-0">
+                            <img class="img-fluid card-img-top" src="https://source.unsplash.com/800x600/?happy">
+                        </div>
+                        <div class="card-body p-2 text-center">
+                            <div class="h4">Project Name</div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div data-src="https://source.unsplash.com/800x600/?sad" class="filtr-item col-lg-3 col-md-6 col-sm-12" data-category="mood" data-sort="value">
+                    <div class="card mb-4 shadow">
+                        <div class="card-header p-0">
+                            <img class="img-fluid card-img-top" src="https://source.unsplash.com/800x600/?sad">
+                        </div>
+                        <div class="card-body p-2 text-center">
+                            <div class="h4">Project Name</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/filterizr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.11/js/lightgallery-all.min.js'></script>
+    <script src="app.js"></script>
+</body>
+</html>
